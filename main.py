@@ -164,6 +164,7 @@ if response.status_code == 200:
                 "SET047": ["PO013", "PO014", "PO015", "PO011", "PO012"],
                 "SET048": ["PO016", "PO017", "PO018", "PO019"],
                 "SET049": ["V0140", "V0141", "V0139"],
+                "SET50": ["PO_SMOU_1", "PO_SMOU_2", "PO_SMOU_3", "PO_SMOU_4", "PO_SMOU_5"]
             }
 
             # Check if the item is in the mapping, then update files_to_copy
