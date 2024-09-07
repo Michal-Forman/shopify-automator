@@ -74,6 +74,10 @@ if response.status_code == 200:
                 if sku is None:
                     continue
 
+                # handle the new format of platba dobírkou
+                elif sku == "DOBIRKA":
+                    continue
+
                 # handle no SKU
                 elif sku == "":
                     missing_sku_warning = True
